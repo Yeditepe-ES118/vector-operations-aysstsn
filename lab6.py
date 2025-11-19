@@ -11,7 +11,11 @@ def arrays():
     array9 = np.diag(np.ones([2]), -1)
     array10 = np.array([np.zeros([4]), np.ones([4]), 2*np.ones([4])])
     
-    return array1, array2, array3, array4, array5, array6, array7, array8, array9, array10
+    return (
+    array1, array2, array3, array4, array5,
+    array6, array7, array8, array9, array10
+)
+
     
 def total_displacement(v1x, v2x, v3x, v1y, v2y, v3y):
     v1 = np.array([v1x, v1y]) #in km
