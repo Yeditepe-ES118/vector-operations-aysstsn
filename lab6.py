@@ -10,12 +10,6 @@ def arrays():
     array8 = np.diag(np.ones([3]))
     array9 = np.diag(np.ones([2]), -1)
     array10 = np.array([np.zeros([4]), np.ones([4]), 2*np.ones([4])])
-    
-    return (
-    array1, array2, array3, array4, array5,
-    array6, array7, array8, array9, array10
-)
-
 
  
 def total_displacement(v1x, v1y, v2x, v2y, v3x, v3y):
