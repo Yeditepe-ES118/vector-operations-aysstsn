@@ -16,8 +16,9 @@ def arrays():
     array6, array7, array8, array9, array10
 )
 
-    
-def total_displacement(v1x, v2x, v3x, v1y, v2y, v3y):
+
+ 
+def total_displacement(v1x, v1y, v2x, v2y, v3x, v3y):
     v1 = np.array([v1x, v1y]) #in km
     v2 = np.array([v2x, v2y]) #in km
     v3 = np.array([v3x, v3y]) #in km
